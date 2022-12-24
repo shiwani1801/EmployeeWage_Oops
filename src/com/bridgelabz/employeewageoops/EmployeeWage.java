@@ -18,7 +18,7 @@ public class EmployeeWage {
         this.numberOfWorkingDays = numOfWorkingDays;
         this.maxWorkingHrs = maxWorkingHrs;
     }
-    private static void getEmployeeWage() {
+     static void getEmployeeWage() {
         //variables
         int salary=0;
         int empHrs=0;
